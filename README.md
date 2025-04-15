@@ -1,6 +1,4 @@
 # Landing Page Project - The Odin Project
-
-===================================================================
 This is my entry for the landing project from **The Odin Project**.
 
 
