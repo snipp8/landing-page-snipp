@@ -9,9 +9,8 @@ body{
 }
 
 .header-content, .content{
-    border: 1px solid red; /*for debugging*/
     min-height: 250px;
-    padding: 30px 250px;
+    padding: 70px 250px;
 }
 
 .header-top, .footer{
@@ -75,15 +74,15 @@ a.nav-link{
 .button{
     color:#E5E7EB;
     font-weight: bold;
-    width: 90px;
+    min-width: 100px;
     height: 30px;
+    border-radius: 10px;
 }
 
 .button.signup{
     align-self: flex-start;
     background-color: #3882F6;
     border: none;
-    border-radius: 10px;
 }
 
 /* --------------------------------- */
@@ -103,8 +102,6 @@ a.nav-link{
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    border: 1px solid red; /*for debugging*/
-
 }
 
 .card{
@@ -143,4 +140,40 @@ a.nav-link{
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.call-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 40px 100px;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.button.call{
+    background-color: #3882F6;
+    border: 2px solid white;
+}
+
+.call-main{
+    font-weight: bold;
+}
+
+.call-text{
+    color: #F9FAF8
+}
+
+.left-call{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
