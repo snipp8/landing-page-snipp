@@ -11,7 +11,7 @@ body{
 .header-content, .content{
     border: 1px solid red; /*for debugging*/
     min-height: 250px;
-    padding: 20px 250px;
+    padding: 30px 250px;
 }
 
 .header-top, .footer{
@@ -40,6 +40,7 @@ a.nav-link{
     font-size: 18px;
 }
 
+/* --------------------------------- */
 .header-content{
     display: flex;
     justify-content: space-between;
@@ -83,4 +84,63 @@ a.nav-link{
     background-color: #3882F6;
     border: none;
     border-radius: 10px;
+}
+
+/* --------------------------------- */
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.information.main-text{
+    color:#1F2937
+}
+
+.information.pic{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border: 1px solid red; /*for debugging*/
+
+}
+
+.card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    align-items: center;
+}
+
+.information-img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card .secondary-text{
+    color: #1F2937
+}
+
+/* --------------------------------- */
+.two{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
 }
