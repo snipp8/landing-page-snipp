@@ -1,7 +1,9 @@
 # Landing Page Project - The Odin Project
-=====================================
+
+===================================================================
 This is my entry for the landing project from **The Odin Project**.
-=====================================
+
+
 ## Reference
 Images that are not cited are taken/created by me.
 
