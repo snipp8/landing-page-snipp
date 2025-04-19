@@ -22,6 +22,10 @@ body{
     padding: 20px 250px;
 }
 
+img.logo{
+    height: 300px;
+}
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -110,6 +114,7 @@ a.nav-link{
     flex-direction: column;
     flex: wrap;
     align-items: center;
+    gap: 18px;
 }
 
 .information-img{
@@ -151,6 +156,7 @@ a.nav-link{
     padding: 40px 100px;
     gap: 100px;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .button.call{
