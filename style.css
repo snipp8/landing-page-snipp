@@ -168,6 +168,7 @@ a.nav-link{
 
 .left-call{
     display: flex;
+    flex: 2;
     flex-direction: column;
     gap: 10px;
 }
